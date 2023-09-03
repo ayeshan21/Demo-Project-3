@@ -21,6 +21,9 @@ main section{
 .header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 150px 0px;
+
 }
 .text-container{
     width: 700px;
