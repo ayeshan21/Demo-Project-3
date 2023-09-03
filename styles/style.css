@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #common-btn{
-    font-size: 15px;
+    font-size: 18px;
     background-color: rgb(252, 96, 39);
     color: #FFF;
     border: 0;
@@ -13,6 +13,7 @@
 }
 #context{
     line-height: 25px;
+    text-align: justify;     
 }
 main section{
     margin: 150px 0px;
@@ -20,10 +21,12 @@ main section{
 /* Header styles */ 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 150px 0px;
-
+    width: 1500px;
+    margin: 150px;
+    margin-top: 150px;
+    margin-bottom: 0;
 }
 .text-container{
     width: 700px;
