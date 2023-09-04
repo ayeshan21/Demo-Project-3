@@ -22,7 +22,6 @@
 
 main section {
     margin-top: 100px;
-    margin-left: 0;
 }
 
 /* Header styles */
@@ -139,12 +138,11 @@ main section {
 /* know our global community section */
 .know-global-community {
     margin-left: 100px;
-    margin-right: 0;
 }
 
 .know-global-community-container {
     display: flex;
-    gap: 100px;
+    gap: 160px;
     align-items: center;
 }
 .know-global-community-title{
@@ -160,10 +158,9 @@ main section {
 }
 .know-global-community-empty-div{
     height: 250px;
-    width: 220px;
+    width: 500px;
     background-image: url('../images/shape-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
-
 }
