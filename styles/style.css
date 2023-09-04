@@ -91,8 +91,16 @@ main section{
 /* Develop without limits section */
 .develop-no-limit-container{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
+}
+.develop-no-limit-empty-div{
+    height: 250px;
+    width: 150px;
+    background-image: url('../images/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
 }
 .developer-img img{
     height: 400px;
