@@ -104,7 +104,7 @@ main section {
     border-radius: 10px;
 }
 
-/* Develop without limits section */
+/* Develop without limits-styles */
 
 .develop-no-limit-container {
     display: flex;
@@ -135,7 +135,7 @@ main section {
     margin-right: 380px;
 }
 
-/* know our global community section */
+/* know our global community-styles*/
 .know-global-community {
     margin-left: 100px;
 }
@@ -163,4 +163,29 @@ main section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
+}
+
+/* how will i execute my plan-styles */
+.execute-plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.execute-plan-title{
+    font-size: 30px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.execute-plan-title-1{
+    font-size: 25px;
+    text-align: center;
+}
+.execute-plan-1 img{
+    height: 400px;
+}
+.execute-plan-2 img{
+    height: 400px;
 }
