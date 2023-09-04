@@ -12,11 +12,13 @@
     margin: 10px 0px;
 }
 #context{
+    font-size: 17px;
     line-height: 25px;
-    text-align: justify;     
+    text-align: justify;    
+    color: #313030; 
 }
 main section{
-    margin: 150px 0px;
+    margin-top: 150px ;
 }
 /* Header styles */ 
 .header{
@@ -25,7 +27,6 @@ main section{
     align-items: center;
     width: 1500px;
     margin: 150px;
-    margin-top: 150px;
     margin-bottom: 0;
 }
 .text-container{
@@ -52,19 +53,37 @@ main section{
 
 /* main sections styles */
 /* my mission style */
-.my-mission{
-    width: 1100px;
-    margin: auto;
-}
 .my-mission-title{
     font-size: 50px;
     font-weight: 700;
     text-align: center;
+    margin-top: 0;
 }
 #mission-year{
     color: orange;
 }
 .mission-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1700px;
+    margin: auto;
+}
+.mission-box{
+    width: 500px;
+    padding: 50px 20px;
+}
+.mission-box img{
+    height: 200px;
+}
+#mission-1{
+    background-color: rgb(107, 72, 139);
+    border-radius: 10px;
+}
+#mission-2{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+#mission-3{
+    background-color: rgb(253, 131, 192);
+    border-radius: 10px;
 }
