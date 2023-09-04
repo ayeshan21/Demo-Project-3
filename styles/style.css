@@ -1,27 +1,32 @@
 /* common shared styles */
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
-#common-btn{
+
+#common-btn {
     font-size: 18px;
     background-color: rgb(252, 96, 39);
     color: #FFF;
     border: 0;
     border-radius: 5px;
-    padding: 15px;  
+    padding: 15px;
     margin: 10px 0px;
 }
-#context{
+
+#context {
     font-size: 17px;
     line-height: 25px;
-    text-align: justify;    
-    color: #313030; 
+    text-align: justify;
+    color: #313030;
 }
-main section{
-    margin-top: 150px ;
+
+main section {
+    margin-top: 100px;
+    margin-left: 0;
 }
-/* Header styles */ 
-.header{
+
+/* Header styles */
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,23 +34,28 @@ main section{
     margin: 150px;
     margin-bottom: 0;
 }
-.text-container{
+
+.text-container {
     width: 700px;
 }
-.banner{
+
+.banner {
     border-left: 4px solid red;
     padding-left: 15px;
 }
-.banner-title{
-    font-size:  50px;
+
+.banner-title {
+    font-size: 50px;
     font-weight: 700;
 }
-.mission{
+
+.mission {
     color: orange;
     font-size: 50px;
     font-weight: 600;
 }
-.banner-img{
+
+.banner-img {
     background-image: url('../images/bg1.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -53,48 +63,57 @@ main section{
 
 /* main sections styles */
 /* my mission style */
-.my-mission-title{
+.my-mission-title {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin-top: 0;
 }
-#mission-year{
+
+#mission-year {
     color: orange;
 }
-.mission-container{
+
+.mission-container {
     display: flex;
     justify-content: space-between;
     width: 1700px;
     margin: auto;
 }
-.mission-box{
+
+.mission-box {
     width: 500px;
     padding: 50px 20px;
 }
-.mission-box img{
+
+.mission-box img {
     height: 200px;
 }
-#mission-1{
+
+#mission-1 {
     background-color: rgb(107, 72, 139);
     border-radius: 10px;
 }
-#mission-2{
+
+#mission-2 {
     background-color: skyblue;
     border-radius: 10px;
 }
-#mission-3{
+
+#mission-3 {
     background-color: rgb(253, 131, 192);
     border-radius: 10px;
 }
 
 /* Develop without limits section */
-.develop-no-limit-container{
+
+.develop-no-limit-container {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.develop-no-limit-empty-div{
+
+.develop-no-limit-empty-div {
     height: 250px;
     width: 150px;
     background-image: url('../images/shape-1.png');
@@ -102,13 +121,49 @@ main section{
     background-size: cover;
     background-position: top left;
 }
-.developer-img img{
+
+.developer-img img {
     height: 400px;
 }
-.develop-no-limit-title{
+
+.develop-no-limit-title {
+    font-size: 25px;
     width: 180px;
     line-height: 35px;
 }
-.develop-no-limit-description{
+
+.develop-no-limit-description {
     margin-right: 380px;
+}
+
+/* know our global community section */
+.know-global-community {
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+.know-global-community-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.know-global-community-title{
+    font-size: 25px;
+    width: 200px;
+    line-height: 35px;
+}
+.know-global-community-description{
+    max-width: 650px;
+}
+.working-img1 img{
+    height: 400px;
+}
+.know-global-community-empty-div{
+    height: 250px;
+    width: 220px;
+    background-image: url('../images/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+
 }
