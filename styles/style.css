@@ -87,3 +87,20 @@ main section{
     background-color: rgb(253, 131, 192);
     border-radius: 10px;
 }
+
+/* Develop without limits section */
+.develop-no-limit-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.developer-img img{
+    height: 400px;
+}
+.develop-no-limit-title{
+    width: 180px;
+    line-height: 35px;
+}
+.develop-no-limit-description{
+    margin-right: 380px;
+}
