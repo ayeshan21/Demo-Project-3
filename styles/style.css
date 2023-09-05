@@ -168,7 +168,9 @@ main section {
 /* how will i execute my plan-styles */
 .execute-plan-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 1700px;
+    margin: auto;
 }
 .execute-plan-title{
     font-size: 30px;
@@ -183,9 +185,21 @@ main section {
     font-size: 25px;
     text-align: center;
 }
+.execute-plan-1{
+    width: 500px;
+}
 .execute-plan-1 img{
-    height: 400px;
+    height: 300px;
+}
+.execute-plan-2{
+    width: 500px;
 }
 .execute-plan-2 img{
     height: 400px;
+}
+#execute-plan-context{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    color: #313030;
 }
