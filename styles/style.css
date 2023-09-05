@@ -203,3 +203,19 @@ main section {
     text-align: justify;
     color: #313030;
 }
+
+/* footer styles */
+.footer{
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    height: 200px;
+}
+.footer-container{
+    width: 400px;
+    margin: auto;
+    padding: 30px 100px 0px 100px;
+}
+#footer-year{
+    color: rgb(214, 27, 214);
+}
