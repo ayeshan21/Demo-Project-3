@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 #common-btn {
     font-size: 18px;
     background-color: rgb(252, 96, 39);
@@ -210,6 +214,7 @@ main section {
     color: #FFF;
     text-align: center;
     height: 200px;
+    margin-top: 50px;
 }
 .footer-container{
     width: 400px;
