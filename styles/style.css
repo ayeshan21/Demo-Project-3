@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -149,18 +149,22 @@ main section {
     gap: 160px;
     align-items: center;
 }
-.know-global-community-title{
+
+.know-global-community-title {
     font-size: 25px;
     width: 200px;
     line-height: 35px;
 }
-.know-global-community-description{
+
+.know-global-community-description {
     max-width: 650px;
 }
-.working-img1 img{
+
+.working-img1 img {
     height: 400px;
 }
-.know-global-community-empty-div{
+
+.know-global-community-empty-div {
     height: 250px;
     width: 500px;
     background-image: url('../images/shape-1.png');
@@ -170,13 +174,14 @@ main section {
 }
 
 /* how will i execute my plan-styles */
-.execute-plan-container{
+.execute-plan-container {
     display: flex;
     justify-content: space-around;
     width: 1700px;
     margin: auto;
 }
-.execute-plan-title{
+
+.execute-plan-title {
     font-size: 30px;
     text-align: center;
     background-color: skyblue;
@@ -185,23 +190,29 @@ main section {
     margin: auto;
     margin-bottom: 50px;
 }
-.execute-plan-title-1{
+
+.execute-plan-title-1 {
     font-size: 25px;
     text-align: center;
 }
-.execute-plan-1{
+
+.execute-plan-1 {
     width: 500px;
 }
-.execute-plan-1 img{
+
+.execute-plan-1 img {
     height: 300px;
 }
-.execute-plan-2{
+
+.execute-plan-2 {
     width: 500px;
 }
-.execute-plan-2 img{
+
+.execute-plan-2 img {
     height: 400px;
 }
-#execute-plan-context{
+
+#execute-plan-context {
     font-size: 20px;
     line-height: 25px;
     text-align: justify;
@@ -209,18 +220,20 @@ main section {
 }
 
 /* footer styles */
-.footer{
+.footer {
     background-color: black;
     color: #FFF;
     text-align: center;
     height: 200px;
     margin-top: 50px;
 }
-.footer-container{
+
+.footer-container {
     width: 400px;
     margin: auto;
     padding: 30px 100px 0px 100px;
 }
-#footer-year{
+
+#footer-year {
     color: rgb(214, 27, 214);
 }
